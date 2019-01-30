@@ -1,0 +1,18 @@
+<script>
+	a = 1
+	b = 100
+game_over = false
+while (!game_over) {
+	guess = (a + b) / 2
+	guess = parseInt(guess)
+	r = prompt ("is your number " + guess + "?")
+	if (r == "yes") {
+		game_over = true
+		} if (r =="<") {
+		b = guess
+		} if (r == ">") {
+		a = guess
+		}
+	}
+alert ("I won!")
+</script>

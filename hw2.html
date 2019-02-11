@@ -2,11 +2,11 @@
 shift = parseInt(prompt("Enter an integer for a shift"))
 a = (prompt("Enter a phrase you wish to code"))
 b = ""
-for(i=0;i<a.length;i+1)
+for(i=0;i<a.length;i++)
 {
 	x = a.charCodeAt (i)
 	
-	if((x >= 65 && x <= 90)) //uppercase letters 
+	if((x >= 65 && x <= 90))
 	
 	{
 		x -= 65;
@@ -15,7 +15,7 @@ for(i=0;i<a.length;i+1)
 		x += 65;
 	}
 	
-	if(x >=97 && x <= 122) //lowercase letters 
+	if(x >=97 && x <= 122)
 	
 	{
 		x -= 97

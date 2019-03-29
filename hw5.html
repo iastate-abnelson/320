@@ -1,0 +1,7 @@
+<script>
+x = prompt ("Say something and I will haigy Paigy it!")
+x = x.replace(/([aeiouy][bcdfghjklmnpqrstvwxz]+)[e]\b/g,"$1_")
+x = x.replace(/([aeiouy])/g,"aig$1")
+x = x.replace(/([_])/g, "e")
+alert (x)
+</script>
